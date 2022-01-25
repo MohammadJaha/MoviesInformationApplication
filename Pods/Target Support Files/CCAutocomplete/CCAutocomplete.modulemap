@@ -1,0 +1,6 @@
+framework module CCAutocomplete {
+  umbrella header "CCAutocomplete-umbrella.h"
+
+  export *
+  module * { export * }
+}
