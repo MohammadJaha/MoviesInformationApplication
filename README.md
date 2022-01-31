@@ -3,74 +3,47 @@ IOS Application to Search for Movies Information Using API
 &nbsp; 
 
 **Demo:**
-[![Family Grocery Application](https://user-images.githubusercontent.com/90371913/151789592-12dc88f6-1089-44e1-953d-50a82b108ab0.jpg)](https://youtu.be/BE2k_xGL9dk)  
+[![Movie Information Application](https://user-images.githubusercontent.com/90371913/151865073-d00db7d1-1c48-414b-913e-f5da678601af.jpg)](https://youtu.be/utWoJyf_ecs)  
 
 
 Using **Swift**  
 
-This Code Provide Simple **IOS Application** For **Family Grocery List**
+This Code Provide Simple **IOS Application** For **Searching Movies Information**
 
-This Application Called **Family Grocery List Application**
+This Application Called **Movies Information Application**
 
-This Application Provide Simple Connection to **Firebase**
+This Application Uses **https://api.themoviedb.org** API
 &nbsp;  
 &nbsp;  
 
 **This Application Will:**
-* • Login to Firebase
-* •	Read From Firebase
-* •	Write to Firebase
-* •	Delete From Firebase
-* •	Save in Firebase
-* • Getting Data from Google
-* • Getting Data from Facebook
+* • Search API for Movies
+* • Get Movies Data from API
+* • Download Movies Images
+* • Uses AutoComplete for Movies Names
 &nbsp;  
 &nbsp;  
 
-**This Application Contains 4 View Controllers:** 
+**This Application Contains 3 View Controllers:** 
 
-**1. SignIn View Controller:**
-*     •	Asking The User to Enter **Email** And **PassWord**
-*     •	SignIn Using Google
-*     •	SignIn Using Facebook
+**1. Search API View Controller:**
+*     •	Searching API for Best Results to Match Movie Name
       
-<img src="https://user-images.githubusercontent.com/90371913/151787093-6c73cfa7-60d1-4bcc-8631-113774da4f2b.png" width="320" height="660">
-
+<img src="https://user-images.githubusercontent.com/90371913/151866485-2986d0b4-5654-4752-84c3-6ebe0819040b.png" width="320" height="660">
 &nbsp;  
 &nbsp;  
     
-**2. SignUp View Controller:**
-*     •	Asking The User to Add **Profile Image**
-*     •	Asking The User to Enter **Name**
-*     •	Asking The User to Enter **Email**
-*     •	Asking The User to Enter **Password**
-*     •	Asking The User to Chose **Family**
+**2. Movie Details View Controller:**
+*     •	Display Movie Image
+*     •	Display Movie Details
       
-<img src="https://user-images.githubusercontent.com/90371913/151787808-f1fa8c3e-24db-4875-b7a5-0a27e8c7f9b0.png" width="320" height="660"> | <img src="https://user-images.githubusercontent.com/90371913/151787815-c805ffba-e548-41a1-86ae-8cdf7785569d.png" width="320" height="660">
-
+<img src="https://user-images.githubusercontent.com/90371913/151866973-02ab6e54-0197-4655-9e7f-e85be657dd59.png" width="320" height="660">
 &nbsp;  
 &nbsp;  
 
-**3. Grocery List View Controller:**
-*     •	Add New Grocery to the List
-*     •	Edit Grocery in the List
-*     •	Delete Grocey from the List
-*     •	Buy Grocery for All Family Memebrs
+**3. Autocomplete Searched Name View Controller:**
+*     •	Display All Movies Names That Contain Entered Letters
       
-<img src="https://user-images.githubusercontent.com/90371913/151788804-6c2f6ee4-c453-4ff3-bba3-a337b8fd7ed0.png" width="320" height="660">
-
+<img src="https://user-images.githubusercontent.com/90371913/151867460-6afa3def-b465-458c-a8f3-5daf715cb8e4.png" width="320" height="660">
 &nbsp;  
 &nbsp;  
-     
-**4. Family Members View Controller:**
-*     •	Display All Family Members
-*     •	Display Online Family Members
-*     •	Display Offline Family Members
-*     •	Show Family Member Profile
-*     •	SignOut
-      
-<img src="https://user-images.githubusercontent.com/90371913/151789368-8d45e5c6-f76b-4044-bc62-9ff304f51461.png" width="320" height="660"> | <img src="https://user-images.githubusercontent.com/90371913/151792415-f19ace8b-a086-4ea9-a0e3-174cbd18de59.png" width="320" height="660">
-
-&nbsp;  
-&nbsp;  
-     
